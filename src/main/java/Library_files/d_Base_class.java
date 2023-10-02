@@ -21,7 +21,7 @@ public class d_Base_class
 			
 		 driver.manage().window().maximize();
 		 
-		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
     }
 }
